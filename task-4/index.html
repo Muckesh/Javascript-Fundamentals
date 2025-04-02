@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title">Weather App</h1>
+    </header>
+
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="city-input" class="input" placeholder="Enter a city name">
+            <button class="btn" onclick="getWeather()">🔍</button>
+        </div>
+        <div class="results-container">
+            <div id="loading" class="loading"></div>
+            <h2 id="search-title" class="search-title"></h2>
+            <img id="weather-icon" class="weather-icon fade-in" style="display:none;">
+            <span id="search-temperature" class="search-temperature">--</span>
+            <p id="search-desc" class="search-desc"></p>
+            <p id="error-msg" class="error-msg"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
