@@ -3,7 +3,7 @@
 ## Overview
 This is a simple **image gallery** that features a **lightbox** effect when clicking on a thumbnail. The selected image expands in a modal overlay with a smooth transition effect.
 
-![Gallery Preview](gallery1.png)(gallery2.png)
+![Gallery Preview](gallery1.png)
 
 ![Lightbox Preview](gallery2.png)
 
